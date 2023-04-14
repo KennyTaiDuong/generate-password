@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #001d3d;
+    color: white;
+    font-family: Karla;
+}
+
+.ice-text {
+    color: #4eadbf;
+    font-weight: 800;
+}
+
+.container {
+    width: 500px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.header {
+    margin: 100px 0 0 0;
+}
+
+.header h1 {
+    margin-bottom: 0;
+    font-size: 48px;
+}
+
+.subtitle {
+    color: lightgray;
+    margin-top: 0;
+    font-size: 24px;
+}
+
+#password-length {
+    background: #284463;
+    border: 0;
+    color: white;
+    padding: 5px 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#password-length::placeholder {
+    color: lightgray;
+}
+
+#generate-password {
+    border: 0;
+    background-color: #4eadbf;
+    color: white;
+    width: 240px;
+    height: 40px;
+    border-radius: 6px;
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    font-family: inherit;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#generate-password:hover {
+    background: white;
+    color: #4eadbf;
+}
+
+#generate-password:active {
+    transform: translate(0%, 2%);
+}
+
+.password-container {
+    display: flex;
+    margin: 40px 0 0 0;
+    padding: 40px 0 0 0;
+    border-top: 2px solid #2F3E53;
+    border-radius: 1px;
+    column-gap: 20px;
+}
+
+.password-container button:before {
+    content: "Copied";
+    position: absolute;
+    top: 50px;
+    right: 0px;
+    background: #4eadbf;
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+.password-container button:after {
+    content: "";
+    position: absolute;
+    top: 45px;
+    right: 25px;
+    width: 10px;
+    height: 10px;
+    background: #4eadbf;
+    transform: rotate(45deg);
+}
+
+.password-box {
+    width: 240px;
+    height: 40px;
+    border-radius: 6px;
+    border: 0;
+    background: #284463;
+    padding: auto 0;
+    margin: 0 0;
+    font-family: inherit;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.password-box:active {
+    transform: translate(0%, 2%);
+}
+
+.password-box:hover {
+    border: 2px solid #4eadbf;
+}
+
